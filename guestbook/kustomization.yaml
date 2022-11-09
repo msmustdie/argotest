@@ -3,6 +3,7 @@ kind: Kustomization
  
 resources:
   - guestbook-ui-deployment.yaml
+  - guestbook-ui-svc.yaml
 
 patches:
 - path: patch.yaml
